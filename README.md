@@ -8,7 +8,7 @@ Inspite of Compliant mechanisms having numerous advantages, the biggest difficul
 
 ### Ratio of Strength to Young’s Modulus
 As flexibility is desirable in complaint mechanism, therefore members having low Young’s Modulus should be preferred but apart from Flexibility, Strength of a material also plays a vital role. If you view the formulae for the maximum deflection of cantilever beam with a load applied to its edge.
-![](images/1.png)
+![](images/1.PNG)
 You can see that the maximum deflection is proportional to the ratio of S_y/E.   
 The material with the highest strength to modulus ratio will allow large deflection before failure, which is often the deciding criterion for selecting material in a Complaint Mechanism.
 
@@ -36,18 +36,18 @@ When the small segment in the small-length flexural pivots is extremely short an
 Figure 6. Cantilever Beam
 The PRBM for this segment was proposed by Howell and Midha[], and consists of two body links with one torsional spring placed at the characteristic pivot.  The length of the rigid links is calculated using γ (characteristic radius), which is a function of n or the Load factor. Load factor is the ratio of the axial force (nP) and the transverse force (P). The spring stiffness of the torsional spring k is a function of characteristic radius factor γ and the 45 beam stiffness coefficient KΘ. The beam end angle is represented by θ_o, and pseudorigid-body angle by Θ. The beam end angle and pseudo-rigid-body angle are related with the parametric angle coefficient cθ.
  
-![](images/2.png)
+![](images/2.PNG)
 
 As a rule of thumb, as an approximation γ_avg can be taken as 0.85.
 To define the torsional stiffness constant of the spring we define a stiffness coefficient,K_Θ . The stiffness coefficient is also a function of the load factor, hence depends on the orientation of the non - follower force. 
 For a rough estimate we can take K_Θavg = 2.65.
 Torsional Spring constant is given by 
-![](images/3.png)
+![](images/3.PNG)
 Where E is the Young’s Modulus, I is Area Moment of Inertia, l is the length of the beam.
 
 # Flowchart followed for the design of the Compliant   Mechanism
 The following flowchart is followed for the design of the following Compliant Mechanism. The process is an iterative one, and the iteration continues till the final design has been obtained.
-![](images/4.png)
+![](images/4.PNG)
 
 # Pseudo Rigid Body Model Design
 
@@ -68,7 +68,7 @@ The visualization of the movement of the mechanism:
 
 As we can see the given configuration is not the right choice as it doesn’t fully uncover the hole on deployment.
 To calculate the energy we need to find the value of K. As we have selected the material as Titanium. Material Properties of Titanium are:-
-![](images/7.png)
+![](images/7.PNG)
 
 Taking Average values of both γ and K_Θ as 0.85 and 2.65 respectively. Area moment of inertia was for a rectangular cross section   (b*h^3)/12. Taking b = 3 mm and h = 1.5mm. K turns out to be 139.2 N/rad. The Curve is shown in the graph.
 
@@ -76,7 +76,7 @@ Taking Average values of both γ and K_Θ as 0.85 and 2.65 respectively. Area mo
 
 The graph shows us the two stable position at βequals to 75 and 105 both. The peak is at 90 degree where the energy peaks to 0.07 Joules. We now compare the mechanism for different initial values of β  keeping R1 = 15 mm.
 
-![](images/8.png)
+![](images/8.PNG)
 
 ![](images/18.png)
 
@@ -111,6 +111,6 @@ A living hinge is a thin flexible web of material that joins two rigid bodies to
 
 The center living hinge has to bend by an angle of π-2*β, that in this case is 40 degrees (taking β as 70 degrees). Using bending equation we can calculate the relationship between stress, thickness and the length of the hinge involved. 
 
-![](images/21.png)
+![](images/21.PNG)
 
 ![](images/22.png)
