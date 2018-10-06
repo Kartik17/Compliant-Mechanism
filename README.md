@@ -59,7 +59,10 @@ This is the initial configuration of the Bistable rigid model, through which the
 
 ![](images/5.png)
 
+--
 ![](images/6.png)
+
+The visualization of the movement of the mechanism:
 
 ![](images/16.png)
 
