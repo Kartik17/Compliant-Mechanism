@@ -16,7 +16,7 @@ The material with the highest strength to modulus ratio will allow large deflect
 The Pseudo Rigid Body Model is used to model the deflection of model the deflection of flexible members using rigid body components that have equivalent Force - displacement relationship. The method is particularly very helpful in the design of compliant mechanism as it provides a simple method of analysing systems that undergo large, nonlinear deflections.
 Here is the brief discussion about the segments and their equivalent model which has been used in the given project:
 
-# Small Length Flexural Pivots
+### Small Length Flexural Pivots
  
 Figure 3. Small Length Flexural Pivot
 The beam has two segments, one is the short and flexible and the other is long and rigid. If the small segment is significantly shorter than the longer segment then that is called a small length flexural pivot.
@@ -31,7 +31,7 @@ When the small segment in the small-length flexural pivots is extremely short an
 ![](images/12.png)
 
 
-# Cantilever beam with a force at the free end
+### Cantilever beam with a force at the free end
  
 Figure 6. Cantilever Beam
 The PRBM for this segment was proposed by Howell and Midha[], and consists of two body links with one torsional spring placed at the characteristic pivot.  The length of the rigid links is calculated using γ (characteristic radius), which is a function of n or the Load factor. Load factor is the ratio of the axial force (nP) and the transverse force (P). The spring stiffness of the torsional spring k is a function of characteristic radius factor γ and the 45 beam stiffness coefficient KΘ. The beam end angle is represented by θ_o, and pseudorigid-body angle by Θ. The beam end angle and pseudo-rigid-body angle are related with the parametric angle coefficient cθ.
@@ -55,7 +55,7 @@ The following flowchart is followed for the design of the following Compliant Me
 
 This is the initial configuration of the Bistable rigid model, through which the Compliant version will be made.
 
-# Mathematical Modelling
+### Mathematical Modelling
 
 ![](images/5.png)
 
@@ -92,18 +92,18 @@ The first image is of the stowed configuration, while the second image shows us 
 
 # Compliant Mechanism Design
 
-# Rigid Body Replacement Synthesis
+### Rigid Body Replacement Synthesis
 
 The simplest way of obtaining a Compliant Mechanism is by first obtaining a pseudo rigid body model, assuming constant link lengths and rigid link kinematics. Once the kinematic geometry has been finalized the structural properties of the flexible members may be chosen according to the allowable stresses. Hence it is named as rigid Body replacement synthesis. 
 
 For a rigid body configuration of R1 = 20mm, R2 = 8.8mm, R3 =3mm,  α_int = 15.1 degrees. We then derive the geometry of the Flexible elements.
 
-Flexible Beam:
+### Flexible Beam:
 Length of the flexible beam represented by R1 = R1/γ = 20/0.85 = 23.5 mm
 
 Cross section of the beam = b * h = 3 * 1.5 〖mm〗^2
 
-Living Hinges :
+### Living Hinges :
 A living hinge is a thin flexible web of material that joins two rigid bodies together. Generally material to build long life living hinges is made of Polyproprene and Polyethylene. 
 
 The center living hinge has to bend by an angle of π-2*β, that in this case is 40 degrees (taking β as 70 degrees). Using bending equation we can calculate the relationship between stress, thickness and the length of the hinge involved. 
